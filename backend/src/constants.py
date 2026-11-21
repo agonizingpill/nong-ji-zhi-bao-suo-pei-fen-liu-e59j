@@ -8,3 +8,7 @@ SETTLEMENT_STATES=('draft','approved','booked')
 REPAIR_STATES=('reserved','running','completed')
 ISSUE_STATES=('issued','returned','consumed')
 FOLLOWUP_STATES=('review','rework','closed')
+
+SHADOW_BATCH_STATES=('running','published')
+SHADOW_ITEM_STATES=('pending','done','incomparable','failed')
+SHADOW_ITEM_RESULTS=('unchanged','escalate','downgrade','incomparable')
